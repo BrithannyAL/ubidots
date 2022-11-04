@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ubidots": "^0.0.4"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -t 10000 -R spec test/*-test.js",
+    "start": "node index.js"
+  }
+}
